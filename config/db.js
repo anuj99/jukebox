@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const connectDB = async () => {
     try {
-        const con = await mongoose.connect('mongodb+srv://anuj_gupta91:masspaizama1.@cluster0.jhnyl.mongodb.net/expensetracker?retryWrites=true&w=majority', {
+        const con = await mongoose.connect('mongodb+srv://anuj_gupta91:@cluster0.jhnyl.mongodb.net/expensetracker?retryWrites=true&w=majority', {
             useNewUrlParser: true,
             useCreateIndex: true,
             useUnifiedTopology: true
